@@ -6,7 +6,7 @@ return [
 
     'education' => "Education",
 
-    'cared' => "November 2016 - now: CARED Développeur d'applications web et mobile",
+    'cared' => "November 2016 - April 2017: CARED Développeur d'applications web et mobile, followd by a 2 month intership at Loyalty Experts",
 
     'cpp' => "2014 - 2016: CPP, la prépa des INP: Engineering pre-school. (120 ECTS earned)",
 

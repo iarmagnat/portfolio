@@ -22,11 +22,11 @@
             <p>
             {{ trans('resume.portFol1') }}
             <br>
-            {{ trans('resume.portFol2') }}<a href="http://getbootstrap.com">bootstrap</a>{{ trans('resume.portFol3') }}
+            {{ trans('resume.portFol2') }}<a target="_blank" href="http://getbootstrap.com">bootstrap</a>{{ trans('resume.portFol3') }}
             <br>
             {{ trans('resume.portFol4') }}
             <br>
-            {{ trans('resume.portFol5') }}<a href="https://github.com/iarmagnat/portfolio">github</a>.
+            {{ trans('resume.portFol5') }}<a target="_blank" href="https://github.com/iarmagnat/portfolio">github</a>.
             </p>
             <hr>
         </div>
@@ -38,7 +38,7 @@
             <img src="/img/othelloScreen.png">
             <br>
         <br>
-            <span>{{ trans('resume.othelloSource') }}<a href="https://github.com/iarmagnat/Othello">github</a>.</span>
+            <span>{{ trans('resume.othelloSource') }}<a target="_blank" href="https://github.com/iarmagnat/Othello">github</a>.</span>
             <br>
             <br>
             <p>

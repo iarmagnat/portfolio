@@ -75,13 +75,13 @@
                 <div class="col-xs-5 col-sm-3 col-lg-2">
                     <div class="row" id="footerLinks">
                         <div class="col-xs-4">
-                            <a href="https://github.com/iarmagnat"><i class="fa fa-github-square fa-3x"></i></a>
+                            <a target="_blank" href="https://github.com/iarmagnat"><i class="fa fa-github-square fa-3x"></i></a>
                         </div>
                         <div class="col-xs-4">
-                            <a href="https://fr.linkedin.com/in/ivan-armagnat-0b40bb133"><i class="fa fa-linkedin-square fa-3x"></i></a>
+                            <a target="_blank" href="https://fr.linkedin.com/in/ivan-armagnat-0b40bb133"><i class="fa fa-linkedin-square fa-3x"></i></a>
                         </div>
                         <div class="col-xs-4">
-                            <a href="http://www.viadeo.com/p/0022cx2fztumvq0c"><i class="fa fa-viadeo-square fa-3x"></i></a>
+                            <a target="_blank" href="http://www.viadeo.com/p/0022cx2fztumvq0c"><i class="fa fa-viadeo-square fa-3x"></i></a>
                         </div>
                     </div>
                 </div>

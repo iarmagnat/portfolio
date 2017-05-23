@@ -6,7 +6,7 @@ return [
 
     'education' => "Formation",
 
-    'cared' => "Novembre 2016 - Aujourd'hui: CARED Développeur d'applications web et mobile",
+    'cared' => "Novembre 2016 - Avril 2017: CARED Développeur d'applications web et mobile, suivi d'un stage de 2 mois chez Loyalty Experts",
 
     'cpp' => "2014 - 2016: CPP, la prépa des INP: classe préparatoire intégée pour école d'ingénieur. (cursus validé)",
 
