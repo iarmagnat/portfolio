@@ -16,9 +16,9 @@ return [
 
     'portFol1' => "I have yet to do any web related project other than the one you are currently browsing.",
     
-    'portFol2' => "It was created using basic procedural PHP, HTML and ",
+    'portFol2' => "It was created using the PHP framework PHP Laravel, HTML and ",
 
-    'portFol3' => " CSS framework. It is only a first draft version so it may undergo substancial changes in a short timespan.",
+    'portFol3' => " CSS framework.",
 
     'portFol4' => "It is allready responsive as it is my main focus through devellopement. Feel free to resize your browser window to see how it behaves.",
 

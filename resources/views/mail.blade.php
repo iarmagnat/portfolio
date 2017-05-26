@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <title>Contact email</title>
 </head>
 <body>
-    <p>Nem mail sent via your portfoio by {{ $name }}</p>
+    <p>New mail sent via your portfoio by {{ $name }}</p>
     <br>
-    {{ $message }}
+    {{ $text }}
     <br>
     <p>Sender email address: {{ $email }} </p>
 </body>

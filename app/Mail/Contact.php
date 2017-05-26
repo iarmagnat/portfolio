@@ -20,11 +20,11 @@ class Contact extends Mailable
      *
      * @return void
      */
-    public function __construct($name, $email, $message)
+    public function __construct($name, $email, $text)
     {
         $this->name = $name;
         $this->email = $email;
-        $this->message = $message;
+        $this->text = $text;
     }
 
     /**
@@ -34,11 +34,12 @@ class Contact extends Mailable
      */
     public function build()
     {
-        return $this->view('mail')
+        return $this->from('contact@ivan-armagnat.fr')
+                    ->view('mail')
                     ->with([
                         'name' => $this->name,
                         'email' => $this->email,
-                        'message' => $this->message,
+                        'text' => $this->text,
                     ]);
     }
 }

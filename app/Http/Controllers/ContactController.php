@@ -17,19 +17,19 @@ class ContactController extends Controller
 
         $name = $request->input('name');
         $email = $request->input('email');
-        $message = $request->input('message');
+        $text = $request->input('message');
 
         $sendable = TRUE;
 
-        if ( strlen($name) && strlen($email) && strlen($message) )
+        if ( strlen($name) && strlen($email) && strlen($text) )
         {
 
             // kinda fiddly way to check if the email is valid
 
-            $atPos = strpos($mail , "@"); //False si not exist
+            $atPos = strpos($email , "@"); //False si not exist
 
             // exploded email: array[0]==adress name ; array[1]==host
-            $cropedMail = explode("@" , $mail);
+            $cropedMail = explode("@" , $email);
 
             // size of the host
             $hebSize = strlen($cropedMail[1]);
@@ -53,20 +53,18 @@ class ContactController extends Controller
         else
         {
             $sendable = False;
-            $mailreport = trans('contact.fill')
+            $mailreport = trans('contact.fill');
         }
 
         if ($sendable)
         {
-            //return view('mail', [ 'name' => $name, 'email' => $email, 'message' => $message ]);
-            //Mail::to('contact@ivan-armagnat.fr')->send(new Contact($name, $email, $message));
+            Mail::to('ivan.armagnat@gmail.com')->send(new Contact($name, $email, $text));
             $mailreport = trans('contact.success');
         }
         
 
         return view('contact', ['active' => 'contact', 'mailreport' => $mailreport]);
 
-        // Now what what would be left is configuring the mailing plugin or watever we would use... Yes that one little part yes...
 
     }
 }

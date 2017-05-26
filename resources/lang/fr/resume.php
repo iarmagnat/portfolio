@@ -16,9 +16,9 @@ return [
 
     'portFol1' => "Je n'ai pas encore réalisé d'autre projet liés au web que le site sur lequel vous naviguez maintenant.",
     
-    'portFol2' => "Il a été créé en utilisant le HTML et le famework CSS ",
+    'portFol2' => "Il a été créé en utilisant le framework Laravel et le famework CSS ",
 
-    'portFol3' => ". Ce n'est pour l'instant qu'une première version brouillonne mais des modifications majeures ne devaient pas tarder.",
+    'portFol3' => ".",
 
     'portFol4' => "Il est cependant déja responsif car il s'agit de ma considération principale durant la création. Essayez donc de modifier la taille de la fenêtre de votre navigateur pour voir comment il réagit.",
 
